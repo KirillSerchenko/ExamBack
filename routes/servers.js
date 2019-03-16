@@ -23,7 +23,7 @@ router.get('/:uid',async function(req, res) {
   res.status(200).send(result);
 });
 
-
+//TODO: use nested routing for that
 /*GET Service Status.*/
 router.get('/:uid/service/:serviceName/isAlive',async function(req, res) {
  //Query to find isAlive Process of some service.
